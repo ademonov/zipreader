@@ -1,0 +1,7 @@
+[package]
+name = "zipreader"
+version = "0.1.0"
+authors = ["Andrew Demonov"]
+
+[dependencies]
+zip = "0.2"
