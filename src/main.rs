@@ -15,7 +15,7 @@ fn main() {
     for i in 0..zip.len() {
         let file = zip.by_index(i).unwrap();
 
-        println!("{}. {}", i, file.name());
+        println!("{}. {} Size: {} bytes", i, file.name(), file.size());
     }
 
     for i in 1.. {
